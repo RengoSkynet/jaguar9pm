@@ -47,7 +47,7 @@ visitor_count = increment_visitor_count()
 
 # === Streamlit Config & Header ===
 st.set_page_config(page_title="Breakcode4D Predictor", layout="wide")
-st.title("🔮 Breakcode4D Predictor (Jaguar 3PM) V1.0")
+st.title("🔮 Breakcode4D Predictor (Jaguar 9PM) V1.0")
 st.markdown(f"⏳ Next draw in: `{str(get_draw_countdown_from_last_8pm()).split('.')[0]}`")
 
 # === Update Draws & Base ===
